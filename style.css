@@ -10,6 +10,7 @@ body {
     color: #ffffff;
     overflow-x: hidden;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,40 +18,25 @@ body {
     padding: 20px 80px;
     background-color: #ffffff;
     color: #000000;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* width: 100%; */
     z-index: 1000;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .logo-icon {
-    width: 28px;
-    height: 28px;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    border-radius: 6px;
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-}
-
-.brand {
-    font-weight: 800;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-}
-.year {
-    font-weight: 500;
-    font-size: 12px;
-    color: #555555;
+    width: 120px; 
+    height: 40px; 
+    background-image: url(assets/logo.png);
+    
+    background-size: contain;     
+    background-position: left center; 
+    background-repeat: no-repeat;  
 }
 
 .nav-links {
@@ -68,4 +54,47 @@ body {
 
 .nav-links a:hover {
     color: #000000;
+}
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #050505;
+    padding: 0 20px;
+    background-image: url(assets/banner.jpg);
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-content h1 i {
+    font-style: italic;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.buttonall {
+    background-color: #0044ff;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
 }
