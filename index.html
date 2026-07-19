@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVCONF 2026</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
 
 <body>
@@ -95,7 +96,7 @@
         <p class="pricing-subtitle">Early-bird pricing ends August 15, 2026.</p>
 
         <div class="pricing-grid">
-            <!-- Card 1: Standard -->
+            <!-- Card 1-->
             <div class="pricing-card">
                 <span class="plan-name">STANDARD</span>
                 <div class="price">$399</div>
@@ -112,7 +113,7 @@
                 <button class="btn-standard">Get Standard</button>
             </div>
 
-            <!-- Card 2: Pro (Highlighted) -->
+            <!-- Card 2 -->
             <div class="pricing-card pro-highlight">
                 <span class="plan-name">PRO</span>
                 <div class="price">$749</div>
@@ -129,7 +130,7 @@
                 <button class="btn-pro">Get Pro</button>
             </div>
 
-            <!-- Card 3: Team -->
+            <!-- Card 3 -->
             <div class="pricing-card">
                 <span class="plan-name">TEAM</span>
                 <div class="price">$5,999</div>
@@ -147,58 +148,93 @@
             </div>
         </div>
     </section>
-<br>
-<br>
-<!-- AI Match & Network Section Begin -->
-<section class="ai-network-section">
-  <div class="ai-container">
-    <h2 class="ai-heading">Find Your Perfect Network with AI</h2>
-    <p class="ai-subheading">
-      With 4,000+ attendees, finding the right connection is tough. Let our AI match you with the perfect speakers and peers based on your interests.
-    </p>
+    <br>
+    <br>
+    <!-- AI  Section  -->
+    <section class="ai-network-section">
+        <div class="ai-container">
+            <h2 class="ai-heading">Find Your Perfect Network with AI</h2>
+            <p class="ai-subheading">
+                With 4,000+ attendees, finding the right connection is tough. Let our AI match you with the perfect
+                speakers and peers based on your interests.
+            </p>
+            <div class="ai-card">
+                <form class="ai-form">
+                    <div class="form-group">
+                        <label class="form-label">What is your current role?</label>
+                        <select class="form-input">
+                            <option value="">Select your role</option>
+                            <option value="developer">Software Engineer / Developer</option>
+                            <option value="founder">Founder / Co-Founder</option>
+                            <option value="student">Student / Tech Enthusiast</option>
+                            <option value="manager">Product Manager</option>
+                        </select>
+                    </div>
 
-    <div class="ai-card">
-      <form class="ai-form">
-        <div class="form-group">
-          <label class="form-label">What is your current role?</label>
-          <select class="form-input">
-            <option value="">Select your role</option>
-            <option value="developer">Software Engineer / Developer</option>
-            <option value="founder">Founder / Co-Founder</option>
-            <option value="student">Student / Tech Enthusiast</option>
-            <option value="manager">Product Manager</option>
-          </select>
+                    <div class="form-group">
+                        <label class="form-label">What topics are you most interested in?</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-card">
+                                <input type="checkbox" name="interest" value="ai">
+                                <span>AI / Machine Learning</span>
+                            </label>
+                            <label class="checkbox-card">
+                                <input type="checkbox" name="interest" value="cloud">
+                                <span>Cloud & DevOps</span>
+                            </label>
+
+                            <label class="checkbox-card">
+                                <input type="checkbox" name="interest" value="web3">
+                                <span>Web3 & Blockchain</span>
+                            </label>
+                            <label class="checkbox-card">
+                                <input type="checkbox" name="interest" value="startup">
+                                <span>Startup Scaling</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="ai-btn">Find My AI Matches</button>
+                </form>
+            </div>
+
         </div>
-
-        <div class="form-group">
-          <label class="form-label">What topics are you most interested in?</label>
-          <div class="checkbox-grid">   
-            <label class="checkbox-card">
-              <input type="checkbox" name="interest" value="ai">
-              <span>AI / Machine Learning</span>
-            </label>   
-            <label class="checkbox-card">
-              <input type="checkbox" name="interest" value="cloud">
-              <span>Cloud & DevOps</span>
-            </label>
-            
-            <label class="checkbox-card">
-              <input type="checkbox" name="interest" value="web3">
-              <span>Web3 & Blockchain</span>
-            </label>        
-            <label class="checkbox-card">
-              <input type="checkbox" name="interest" value="startup">
-              <span>Startup Scaling</span>
-            </label>     
-          </div>
+    </section>
+    <!-- AI Section -->
+    <!-- fototer -->
+    <!-- HTML -->
+    <footer class="footer">
+        <div class="footer-top">
+             <div class="logo-icon1"></div>
+            <div class="socials">
+                <!-- Facebook Icon -->
+                <a href="#">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z" />
+                    </svg>
+                </a>
+                <!-- Twitter/X Icon -->
+                <a href="#">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                </a>
+                <!-- LinkedIn Icon -->
+                <a href="#">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+            </div>
         </div>
-        <button type="submit" class="ai-btn">Find My AI Matches</button>
-      </form>
-    </div>
+        <hr class="divider">
+        <div class="copyright">
+            <p>&copy; 2026 All rights reserved.</p>
+        </div>
+    </footer>
 
-  </div>
-</section>
-<!-- AI Match & Network Section End -->
 
 </body>
 

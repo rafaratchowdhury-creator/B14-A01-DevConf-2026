@@ -18,9 +18,6 @@ body {
     padding: 20px 80px;
     background-color: #ffffff;
     color: #000000;
-    /* position: fixed; */
-    /* top: 0; */
-    /* width: 100%; */
     z-index: 1000;
 }
 
@@ -67,6 +64,7 @@ body {
     background-image: url(assets/banner.jpg);
     color: #ffffff;
 }
+
 .hero-content {
     max-width: 700px;
 }
@@ -146,11 +144,13 @@ body {
     font-size: 13px;
     margin: 0;
 }
+
 .speakers-grid {
     text-align: center;
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
 }
+
 .pricing-section {
     text-align: center;
     padding: 60px 20px;
@@ -190,9 +190,9 @@ body {
 }
 
 .pricing-card.pro-highlight {
-    background-color: #0b1329; 
+    background-color: #0b1329;
     border-color: #0b1329;
-    color: #ffffff;            
+    color: #ffffff;
 }
 
 .plan-name {
@@ -203,7 +203,7 @@ body {
 }
 
 .pro-highlight .plan-name {
-    color: #94a3b8; 
+    color: #94a3b8;
 }
 
 .price {
@@ -235,7 +235,7 @@ hr {
 }
 
 .features-list {
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
     margin: 0 0 30px 0;
 }
@@ -255,7 +255,7 @@ hr {
 
 .features-list li::before {
     content: "•";
-    color: #2563eb; 
+    color: #2563eb;
     font-weight: bold;
     font-size: 18px;
     position: absolute;
@@ -265,10 +265,11 @@ hr {
 
 .pro-highlight .features-list li::before {
     content: "•";
-    color: #38bdf8; 
+    color: #38bdf8;
 }
 
-.btn-standard, .btn-team {
+.btn-standard,
+.btn-team {
     width: 100%;
     background-color: transparent;
     border: 1px solid #2563eb;
@@ -287,7 +288,7 @@ hr {
 
 .btn-pro {
     width: 100%;
-    background-color: #2563eb; 
+    background-color: #2563eb;
     border: none;
     color: white;
     padding: 12px;
@@ -296,128 +297,194 @@ hr {
     font-weight: bold;
     cursor: pointer;
 }
+
 .ai-network-section {
-  padding: 80px 20px;
-  background-color: #f9fafb;
-  font-family: sans-serif;
+    padding: 80px 20px;
+    background-color: #f9fafb;
+    font-family: sans-serif;
 }
 
 .ai-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .ai-heading {
-  font-size: 36px;
-  font-weight: 700;
-  color: #111827;
-  margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
 }
 
 .ai-subheading {
-  font-size: 16px;
-  color: #4b5563;
-  max-width: 600px;
-  margin: 0 auto 40px auto;
-  line-height: 1.6;
+    font-size: 16px;
+    color: #4b5563;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
 }
 
 .ai-card {
-  max-width: 650px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border: 1px solid #f3f4f6;
-  text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f3f4f6;
+    text-align: left;
 }
 
 .form-group {
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .form-label {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 8px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
 }
 
 .form-input {
-  width: 100%;
-  padding: 12px 16px;
-  background-color: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  font-size: 14px;
-  color: #1f2937;
-  outline: none;
-  transition: all 0.2s ease;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #1f2937;
+    outline: none;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 .form-input:focus {
-  border-color: #0047FF;
-  background-color: #ffffff;
-  box-shadow: 0 0 0 3px rgba(0, 71, 255, 0.15);
+    border-color: #0047FF;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(0, 71, 255, 0.15);
 }
 
 .checkbox-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
 }
 
 .checkbox-card {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px;
-  background-color: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .checkbox-card:hover {
-  background-color: #f3f4f6;
+    background-color: #f3f4f6;
 }
 
 .checkbox-card input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
-  accent-color: #0047FF;
-  cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: #0047FF;
+    cursor: pointer;
 }
 
 .checkbox-card span {
-  font-size: 14px;
-  font-weight: 500;
-  color: #374151;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
 }
 
 .ai-btn {
-  width: 100%;
-  background-color: #0047FF;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
-  padding: 14px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-  box-shadow: 0 4px 14px rgba(0, 71, 255, 0.2);
+    width: 100%;
+    background-color: #0047FF;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 14px rgba(0, 71, 255, 0.2);
 }
 
 .ai-btn:hover {
-  background-color: #0036c7;
+    background-color: #0036c7;
 }
 
 .ai-btn:active {
-  transform: scale(0.98);
+    transform: scale(0.98);
+}
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+/* আইকনের রঙ সাদা করার জন্য */
+.socials svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+    transition: fill 0.2s;
+}
+
+.socials svg:hover {
+    fill: #aaa;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 15px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.logo-icon1 {
+    width: 120px;
+    height: 40px;
+    background-image: url(assets/logo.png);
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    /* নিচের এই লাইনটি কালো/রঙিন লোগোকে ১০০% সাদা করে দেবে */
+    filter: brightness(0) invert(1); 
 }
